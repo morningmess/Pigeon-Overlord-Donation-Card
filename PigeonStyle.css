@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: smaller;
+    margin-top: 150px;
+
+}
+
+title, .pdescription, .button {
+    font-family: "Montserrat";
+}
+
+h1, .price {
+    font-family: "Fraunces";
+}
+
+h5 {
+    color: gray;
+    font-size: 12px;
+}
+
+p {
+    color: gray;
+}
+
+h1 {
+    margin-top: -15px;
+}
+
+.productbox {
+    display: flex;
+    background-color: #ffff;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+.overlordimg {
+    flex: 1;
+    margin-right: 25px;
+    margin-bottom: -5px;
+}
+
+.pdescription {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.price {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: -10px;
+    color: #3d8168;
+}
+
+.button {
+    background-color: #3d8168;
+    width: 200px;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+/* Inverted Nest Color */
+.cart {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
